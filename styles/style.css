@@ -1,0 +1,22 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: linear-gradient(to right, #333, #ccc);
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 6vW;
+    padding: 20px 0;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #333;
+    background: #fff;
+}
